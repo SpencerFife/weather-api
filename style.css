@@ -11,7 +11,7 @@
     font-size: 15px;
 }
 
-.flex {
+.search-bar {
     display: flex;
     flex-direction: row;
 }
