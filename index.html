@@ -19,14 +19,16 @@
       <h1>Weather Dashboard</h1>
     </div>
     <!--search bar/search button-->
-    <div class="form-group col-md-3">
-      <h1 id="citySearch">Search for a City:</h1>
-      <input type="text" class="form-control" id="inputCity" />
-    </div>
-    <div class="col-md-3">
-      <button type="button" id="searchButton" class="btn btn-info">
-        Search
-      </button>
+    <h1 id="citySearch">Search for a City:</h1>
+    <div class="flex col-md-4">
+      <div class="input-group">
+        <input type="text" class="form-control" id="inputCity" />
+      </div>
+      <div>
+        <button type="button" id="searchButton" class="btn btn-info">
+          Search
+        </button>
+      </div>
     </div>
     <!--div for displaying current city-->
     <div class="current-city"></div>
