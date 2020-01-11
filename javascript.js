@@ -1,6 +1,6 @@
 //ajax
 $.ajax({
-    url:
+    url: ''
     method: 'GET'
 })
 //javascript
